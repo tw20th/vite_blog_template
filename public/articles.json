@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Vite + Reactで始めるWebサイト作成",
+    "summary": "簡単かつ高速な開発環境を提供するViteを使用して、ReactをベースとしたWebサイトを構築する方法を解説。",
+    "content": "ViteとReactを使用することで、素早く効率的な開発環境を構築できます。本記事では、プロジェクトのセットアップから基本的なコンポーネントの作成、ローカルサーバーの起動方法まで詳しく解説します。",
+    "date": "2024-11-01",
+    "tags": ["Tech", "Vite", "React"],
+    "category": "Tech",
+    "featured": true,
+    "image": "/images/tech_article.jpg"
+  },
+  {
+    "id": 2,
+    "title": "検索バーとタグフィルターの追加",
+    "summary": "検索バーを用いた記事検索機能とタグフィルターの実装手順を紹介。",
+    "content": "検索バーとタグフィルターを組み合わせることで、ユーザーは簡単に記事を絞り込むことができます。本記事では、Reactの状態管理とJSONデータを活用した動的フィルタリングの仕組みを紹介します。",
+    "date": "2024-11-02",
+    "tags": ["React", "Search", "Filter"],
+    "category": "Life",
+    "featured": false,
+    "image": "/images/search_filter_article.jpg"
+  },
+  {
+    "id": 3,
+    "title": "レスポンシブデザインの実装",
+    "summary": "スマートフォンやタブレットでも見やすいレイアウトを実現するレスポンシブデザインの導入方法を紹介。",
+    "content": "レスポンシブデザインを使用することで、ユーザーのデバイスに応じた最適なレイアウトを提供できます。この記事では、CSSメディアクエリとグリッドシステムを活用したレスポンシブデザインの基礎を解説します。",
+    "date": "2024-11-03",
+    "tags": ["Design", "CSS", "Responsive"],
+    "category": "Design",
+    "featured": false,
+    "image": "/images/responsive_design_article.jpg"
+  }
+]

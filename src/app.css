@@ -1,0 +1,147 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card {
+  padding: 2em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* カードデザイン */
+.card {
+  padding: 2em;
+  border-radius: 12px; /* カードの角丸 */
+  background-color: #ffffff; /* カード背景 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* カードのシャドウ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* ホバー時に少し浮く */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* ホバー時の強調シャドウ */
+}
+
+/* 見出し */
+.card h3 {
+  font-size: 1.5rem; /* 見出しサイズ */
+  color: #333333; /* 濃いグレー */
+  margin-bottom: 0.5rem;
+}
+
+/* 本文 */
+.card p {
+  font-size: 1rem; /* 本文サイズ */
+  color: #666666; /* テキスト色 */
+  margin-bottom: 1rem;
+}
+
+/* 日付 */
+.card small {
+  font-size: 0.875rem;
+  color: #888888;
+}
+
+/* 全体の背景色とレイアウト調整 */
+body {
+  font-family: 'Roboto', sans-serif; /* フォント変更 */
+  background-color: #f9f9f9; /* 背景色 */
+  color: #333333; /* テキストの基本色 */
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ベーススタイル（デスクトップ） */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* グリッドスタイル */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 自動調整 */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* レスポンシブスタイル */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* タブレット */
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* スマートフォン */
+  }
+
+  .card {
+    padding: 0.6rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
